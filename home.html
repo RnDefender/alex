@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230111182253">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230120002236">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,35 +16,35 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__container">
-				<a href="" class="header__logo">
+				<a href="#" class="header__logo">
 					<img src="img/logo.svg" alt="Logo">
 				</a>
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
 							<li class="menu__item">
-								<a href="#" data-goto=".services" class="menu__link">Services</a>
+								<a href="#" data-goto-speed="800" data-goto=".services" class="menu__link">Services</a>
 							</li>
 							<li class="menu__item">
-								<a href="#" data-goto=".portfolio" class="menu__link">Portfolios</a>
+								<a href="#" data-goto-speed="800" data-goto=".portfolio" class="menu__link">Portfolios</a>
 							</li>
 							<li class="menu__item">
-								<a href="#" data-goto=".career" class="menu__link">Experience</a>
+								<a href="#" data-goto-speed="800" data-goto=".career" class="menu__link">Experience</a>
 							</li>
 							<li class="menu__item">
-								<a href="#" data-goto=".blog" class="menu__link">Blog</a>
+								<a href="#" data-goto-speed="800" data-goto=".blog" class="menu__link">Blog</a>
 							</li>
 							<li class="menu__item">
 								<button type="submit" class="menu__button">...</button>
 								<ul class="menu__dropdown dropdown-menu">
 									<li data-da=".menu__list, 768" class="dropdown-menu__item">
-										<a href="#" data-goto=".testimonials" class="dropdown-menu__link">Testimonials</a>
+										<a href="#" data-goto-speed="800" data-goto=".testimonials" class="dropdown-menu__link">Testimonials</a>
 									</li>
 									<li data-da=".menu__list, 768" class="dropdown-menu__item">
-										<a href="#" data-goto=".skills" class="dropdown-menu__link">Education & Skills</a>
+										<a href="#" data-goto-speed="800" data-goto=".skills" class="dropdown-menu__link">Education & Skills</a>
 									</li>
 									<li data-da=".menu__list, 768" class="dropdown-menu__item">
-										<a href="#" data-goto=".contacts" class="dropdown-menu__link">Contacts</a>
+										<a href="#" data-goto-speed="800" data-goto=".contacts" class="dropdown-menu__link">Contacts</a>
 									</li>
 								</ul>
 							</li>
@@ -52,7 +52,7 @@
 					</nav>
 				</div>
 				<div class="header__actions">
-					<a href="#" data-goto=".main-section" class="header__button">Resume</a>
+					<a href="#" data-goto-speed="800" data-goto=".main-section" class="header__button">Resume</a>
 					<button type="button" class="menu__icon icon-menu">
 						<span></span>
 					</button>
@@ -61,7 +61,7 @@
 		</header>
 
 		<main class="page">
-			<section data-fullscreen data-watch-threshold="1" data-watch="navigator" class="page__main main-section">
+			<section data-fullscreen data-watch-threshold="1" data-watch="navigator" class="scroll page__main main-section" data-section-name="main-section">
 				<div data-fullscreen class="main-section__container">
 					<div class="main-section__content">
 						<div class="main-section__title title">
@@ -98,7 +98,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="page__services services">
+			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="scroll page__services services" data-section-name="services">
 				<div data-fullscreen class="services__container">
 					<div class="services__title title">
 						<div class="title__label">SERVICES</div>
@@ -129,7 +129,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="page__portfolio portfolio">
+			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="scroll page__portfolio portfolio" data-section-name="portfolio">
 				<div data-fullscreen class="portfolio__container">
 					<div class="portfolio__header">
 						<div class="portfolio__title title">
@@ -197,7 +197,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="page__career career">
+			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="scroll page__career career" data-section-name="career">
 				<div data-tabs="768" data-fullscreen class="career__container">
 					<div class="career__body">
 						<div class="career__title title">
@@ -359,7 +359,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="page__blog blog">
+			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="scroll page__blog blog" data-section-name="blog">
 				<div data-fullscreen class="blog__container">
 					<div class="blog__title title">
 						<div class="title__label">MY ARTICLES</div>
@@ -426,7 +426,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="page__testimonials testimonials">
+			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="scroll page__testimonials testimonials" data-section-name="testimonials">
 				<div data-fullscreen class="testimonials__container">
 					<div class="testimonials__title title">
 						<div class="title__label">MY CLIENTS</div>
@@ -468,7 +468,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="page__skills skills">
+			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="scroll page__skills skills" data-section-name="skills">
 				<div data-fullscreen class="skills__container">
 					<div class="skills__title title">
 						<div class="title__label">LEARNING PATH</div>
@@ -522,7 +522,7 @@
 					</div>
 				</div>
 			</section>
-			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="page__contacts contacts">
+			<section data-fullscreen data-watch-threshold="0.5" data-watch="navigator" class="scroll page__contacts contacts" data-section-name="contacts">
 				<div data-fullscreen class="contacts__container">
 					<form action="#" class="contacts__form form">
 						<div class="form__item">
@@ -605,7 +605,9 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20230111182253"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js?_v=20230120002236"></script>
+	<script src="js/app.min.js?_v=20230120002236"></script>
+
 </body>
 
 </html>
